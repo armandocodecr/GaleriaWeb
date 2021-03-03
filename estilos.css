@@ -394,12 +394,12 @@ nav label{
 @media screen and (max-width: 375px){
   
     .contenedor-sobre img{
-        margin-left: -50px
+        margin-left: -75px
     }
     
     .contenedor-sobre .imagen a{
-        font-size: 10px;
-        margin-left: -20px;
+        font-size: 11px;
+        margin-left: -100px;
     }
     
 
