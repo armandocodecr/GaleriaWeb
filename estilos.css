@@ -199,17 +199,32 @@ nav .nav a{
     }
 
     .close{
-        position: absolute;
-top: 10px;
-right: 5px;
-display: inline-block;
-width: 55px;
-height: 55px;
-color: white;
-line-height: 50px;
-cursor: pointer;
-border-radius: 50%;
-    }
+   position: absolute;
+   top: 10px;
+   right: 5px;
+   display: inline-block;
+   width: 55px;
+   height: 55px;
+   color: white;
+   line-height: 50px;
+   cursor: pointer;
+   border-radius: 50%;
+  }
+
+  .contenedor{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   }  
+
+   #texto{
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+   }
+   
 
   @media screen and (max-width: 1280px){
     .flex img{
@@ -219,6 +234,11 @@ border-radius: 50%;
 }    
 
 @media screen and (max-width:900px){
+    
+      .contenedor-sobre p{
+        font-size: 17px;
+    }
+    
     .flex img{
         width: 80%;
         height: 40%;
