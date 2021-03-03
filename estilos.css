@@ -425,6 +425,10 @@ nav label{
         margin-left: -80px;
         font-size: 13px;
     }
+    
+    .contenedor-sobre .imagen a{
+        margin-left: 100px;
+    }
 
 .titulo h1{
     font-size: 25px;
