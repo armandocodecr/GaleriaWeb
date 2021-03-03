@@ -313,29 +313,18 @@ nav label{
 
     .contenedor-sobre p{
         width: 85%;
-        margin-top: 40px;
         font-size: 17px;
     }
 
     .contenedor-sobre img{
-        margin-left: -75px;
-        margin-top: 50px;
+
         width: 250px;
         height: 300px;
     }
 
-    .contenedor-sobre .imagen{
-        margin-left: 60px;
-    }
-
-    .contenedor-sobre .imagen p{
-        margin-top: 20px;
-    }
 
     .contenedor-sobre a{
-        position: absolute;
-        margin-top: -10px;
-        margin-left: -100px;
+      
         font-size: 17px;
     }
 
@@ -356,12 +345,12 @@ nav label{
 @media screen and (max-width:500px){
 
     .contenedor-sobre p{
-        margin-left: -12px;
+       
         font-size: 15px;
     }
 
     .contenedor-sobre a{
-        margin-left: -110px;
+     
         font-size: 17px;
     }
 
@@ -393,7 +382,7 @@ nav label{
     }
 
     .contenedor-sobre a{
-        margin-left: -97px;
+       
         font-size: 15px;
     }
 
@@ -412,19 +401,13 @@ nav label{
         height: 900px;
     }
 
-    .contenedor-sobre img{
-        width: 200px;
-        height: 250px;
-    }
+
 
     .contenedor-sobre p{
         font-size: 11px;
     }
 
-    .contenedor-sobre a{
-        margin-left: -80px;
-        font-size: 13px;
-    }
+ 
 
 .titulo h1{
     font-size: 25px;
