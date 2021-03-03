@@ -374,11 +374,11 @@ nav label{
 @media screen and (max-width: 470px){
 
     .contenedor-sobre p{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .contenedor-sobre a{
-        margin-left: -159px;
+        margin-left: -97px;
         font-size: 15px;
     }
 
@@ -389,6 +389,20 @@ nav label{
     nav .nav a{
         font-size: 15px;
     }
+}
+
+@media screen and (max-width: 375px){
+  
+    .contenedor-sobre img{
+        margin-left: 5px
+    }
+    
+    .contenedor-sobre a{
+        font-size: 11px;
+        margin-left: -10px;
+    }
+    
+
 }
 
 @media screen and (max-width: 360px){
