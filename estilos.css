@@ -430,6 +430,9 @@ nav label{
         font-size: 13px;
     }
     
+      .contenedor-sobre .imagen p{
+        margin-left: -50px;
+    }
 
     
     .contenedor-sobre .imagen a{
