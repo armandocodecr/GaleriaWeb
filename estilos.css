@@ -427,7 +427,11 @@ nav label{
     }
     
     .contenedor-sobre .imagen p{
-        margin-left: -45px;
+        margin-left: -46px;
+    }
+    
+    .contenedor-sobre .imagen a{
+        margin-left: -50px;
     }
 
 .titulo h1{
