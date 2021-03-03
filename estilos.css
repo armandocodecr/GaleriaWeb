@@ -459,8 +459,17 @@ nav label{
 @media screen and (max-width: 330px){
 
     .contenedor-sobre img{
-        margin-left: -100px;
+        margin-left: -115px;
 
+    }
+    
+        .contenedor-sobre .imagen p{
+        margin-left: -50px;
+    }
+
+    
+    .contenedor-sobre .imagen a{
+        margin-left: -100px;
     }
     
 }
