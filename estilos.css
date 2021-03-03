@@ -374,11 +374,11 @@ nav label{
 @media screen and (max-width: 470px){
 
     .contenedor-sobre p{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .contenedor-sobre a{
-        margin-left: -97px;
+        margin-left: -99px;
         font-size: 15px;
     }
 
