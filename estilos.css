@@ -212,6 +212,12 @@ nav .nav a{
   }
 
    @media screen and (max-width: 1280px){
+    .contenedor-modal .flex img{
+        width: 650px;
+        height: 350px;
+    }
+
+       
     .flex img{
         width: 65%;
         height: 45%;
