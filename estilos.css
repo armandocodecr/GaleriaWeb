@@ -478,6 +478,11 @@ nav label{
         margin-left: -103px;
     }
     
+    .contenedor-modal .flex img{
+      width: 350px;
+      height: 350px;
+    }
+    
 }
 
  
