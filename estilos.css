@@ -427,6 +427,11 @@ nav label{
 
 @media screen and (max-width: 360px){
     
+    .contenedor-modal .flex img{
+      width: 300px;
+      height: 100px;
+    }
+    
     .contenedor-sobre #texto{
         margin-left: 3px;
     }
