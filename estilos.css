@@ -117,12 +117,12 @@ nav .nav a{
     justify-content: center;
     text-align: center;
     width: 90%;
-    height: 950px;
+    height: 700px;
     background: rgb(202, 201, 201);
     margin: auto;
     margin-top: 150px;
     margin-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 140px;
     font-size: 25px;
 }
 
@@ -137,11 +137,13 @@ nav .nav a{
 }
 
 .contenedor-sobre img{
+    position: relative;
     width: 400px;
     height: 400px;
     padding-bottom: 80px;
-
 }
+
+
 
 .contenedor-footer {
     position: absolute;
@@ -199,17 +201,19 @@ nav .nav a{
     }
 
     .close{
-   position: absolute;
-   top: 10px;
-   right: 5px;
-   display: inline-block;
-   width: 55px;
-   height: 55px;
-   color: white;
-   line-height: 50px;
-   cursor: pointer;
-   border-radius: 50%;
-  }
+        position: absolute;
+top: 10px;
+right: 5px;
+display: inline-block;
+width: 55px;
+height: 55px;
+color: white;
+line-height: 50px;
+cursor: pointer;
+border-radius: 50%;
+    }
+
+  
 
 @media screen and (max-width: 1280px){
 
