@@ -211,13 +211,13 @@ nav .nav a{
    border-radius: 50%;
   }
 
-   @media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px){
+
     .contenedor-modal .flex img{
         width: 650px;
         height: 350px;
     }
 
-       
     .flex img{
         width: 65%;
         height: 45%;
@@ -225,11 +225,10 @@ nav .nav a{
 }    
 
 @media screen and (max-width:900px){
-    
-      .contenedor-sobre p{
+    .contenedor-sobre p{
         font-size: 17px;
     }
-    
+
     .flex img{
         width: 80%;
         height: 40%;
@@ -249,7 +248,7 @@ nav .nav a{
 }
 
 nav label{
-    margin-left: 15px;
+    margin-left: 30px;
     font-size: 30px;
     cursor: pointer;
      display: none; 
@@ -258,11 +257,6 @@ nav label{
 
 
 @media screen and (max-width: 750px){
-    
-      .contenedor-modal .flex img{
-      width: 450px;
-      height: 300px;
-    }
 
      nav label{
          display: block;
@@ -300,33 +294,19 @@ nav label{
         font-size: 20px;
     }
 
-    .contenedor-sobre .imagen{
-        width: 85%;
-    }
 }
 
 @media screen and (max-width: 600px){
 
     .contenedor-sobre p{
+        margin-top: 20px;
         width: 85%;
-        margin-top: 40px;
         font-size: 17px;
     }
 
-    .contenedor-sobre img{
-        margin-left: -75px;
-        margin-top: 50px;
-        width: 250px;
-        height: 300px;
-    }
-
-    .contenedor-sobre .imagen{
-        margin-left: 60px;
-    }
-
-    .contenedor-sobre .imagen p{
-        margin-top: 20px;
-    }
+     .contenedor-sobre .imagen{
+         margin-left: 60px;
+     }
 
     .contenedor-sobre a{
         position: absolute;
@@ -351,14 +331,26 @@ nav label{
 
 @media screen and (max-width:500px){
 
+    .contenedor-sobre{
+        height: 580px;
+    }
+
+    .titulo h1{
+        font-size: 20px;
+    }
+
     .contenedor-sobre p{
-        margin-left: -12px;
         font-size: 15px;
     }
 
-    .contenedor-sobre a{
-        margin-left: -110px;
-        font-size: 17px;
+    .contenedor-sobre .imagen a{
+        margin-left: -76px;
+        font-size: 12px;
+    }
+
+    .contenedor-sobre .imagen{
+        margin-top: 100px;
+        width: 90%;
     }
 
     nav .nav{
@@ -382,19 +374,14 @@ nav label{
     }
 }
 
+
 @media screen and (max-width: 470px){
-    
-     .contenedor-modal .flex img{
-      width: 350px;
-      height: 200px;
-    }
 
     .contenedor-sobre p{
         font-size: 13px;
     }
 
     .contenedor-sobre a{
-        margin-left: -97px;
         font-size: 15px;
     }
 
@@ -407,61 +394,37 @@ nav label{
     }
 }
 
-@media screen and (max-width: 375px){
-  
-    .contenedor-sobre img{
-        margin-left: 100px
+@media screen and (max-width: 370px){
+
+    .contenedor-sobre .imagen {
+        margin-left: 45px;
     }
-    
-     .contenedor-sobre .imagen p{
-        margin-left: 40px;
-    }
-    
-    .contenedor-sobre .imagen a{
-        font-size: 11px;
-        margin-left: -75px;
-    }
-    
+   
+   .contenedor-sobre .imagen a{
+       margin-left: -72px;
+   }
 
 }
 
 @media screen and (max-width: 360px){
-    
-    .contenedor-modal .flex img{
-      width: 300px;
-      height: 150px;
-    }
-    
-    .contenedor-sobre #texto{
-        margin-left: 3px;
-    }
 
     .contenedor-sobre{
-        height: 900px;
+        height: 500px;
     }
 
     .contenedor-sobre img{
-        margin-left: -65px;
         width: 200px;
         height: 250px;
     }
 
     .contenedor-sobre p{
+        margin-top: -5px;
         font-size: 11px;
     }
 
-    .contenedor-sobre a{
-        margin-left: -80px;
-        font-size: 13px;
-    }
-    
-      .contenedor-sobre .imagen p{
-        margin-left: -10px;
-    }
-
-    
     .contenedor-sobre .imagen a{
-        margin-left: -75px;
+        margin-left: -60px;
+        font-size: 10px;
     }
 
 .titulo h1{
@@ -475,29 +438,19 @@ nav label{
     nav .nav a{
         font-size: 12px;
     }
-} 
-   
-@media screen and (max-width: 330px){
+}
 
-    .contenedor-sobre img{
-        margin-left: -115px;
-
+@media screen and (max-width: 290px){
+    .contenedor-sobre .imagen{
+        margin-left: 30px;
     }
-    
-        .contenedor-sobre .imagen p{
-        margin-left: -40px;
-    }
+}
 
-    
+@media screen and (max-width: 270px){
     .contenedor-sobre .imagen a{
-        margin-left: -103px;
+        margin-left: -55px;
+        font-size: 9px;
     }
-    
-    .contenedor-modal .flex img{
-      width: 250px;
-      height: 150px;
-    }
-    
 }
 
  
