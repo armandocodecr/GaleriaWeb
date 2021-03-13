@@ -114,7 +114,9 @@ nav .nav a{
 
 .contenedor-sobre{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     width: 90%;
     height: 700px;
@@ -122,14 +124,19 @@ nav .nav a{
     margin: auto;
     margin-top: 150px;
     margin-bottom: 50px;
-    padding-top: 140px;
+    padding-top: 60px;
     font-size: 25px;
 }
 
+.contenedor-sobre .imagen2{
+    width: 80%;
+    position: relative;
+}
+
 .contenedor-sobre .imagen{
-    width: 70%;
-    position: absolute;
-    margin-top: 150px;
+    width: 80%;
+    position: relative;
+    margin-top: 100px;
 }
 
 .contenedor-sobre .imagen p{
@@ -215,6 +222,7 @@ border-radius: 50%;
 
   
 
+    
 @media screen and (max-width: 1280px){
 
     .contenedor-modal .flex img{
@@ -303,19 +311,15 @@ nav label{
 @media screen and (max-width: 600px){
 
     .contenedor-sobre p{
-        margin-top: 20px;
-        width: 85%;
         font-size: 17px;
     }
 
-     .contenedor-sobre .imagen{
-         margin-left: 60px;
-     }
+
 
     .contenedor-sobre a{
         position: absolute;
         margin-top: -10px;
-        margin-left: -100px;
+        margin-left: -65px;
         font-size: 17px;
     }
 
@@ -348,14 +352,15 @@ nav label{
     }
 
     .contenedor-sobre .imagen a{
-        margin-left: -76px;
+        margin-left: -48px;
         font-size: 12px;
     }
 
     .contenedor-sobre .imagen{
-        margin-top: 100px;
-        width: 90%;
+        margin-top: 50px;
     }
+
+   
 
     nav .nav{
         width: 300px;
@@ -385,8 +390,9 @@ nav label{
         font-size: 13px;
     }
 
-    .contenedor-sobre a{
-        font-size: 15px;
+    .contenedor-sobre .imagen a{
+        margin-left: -47px;
+        font-size: 11px;
     }
 
     nav .nav{
@@ -399,13 +405,9 @@ nav label{
 }
 
 @media screen and (max-width: 370px){
-
-    .contenedor-sobre .imagen {
-        margin-left: 45px;
-    }
    
    .contenedor-sobre .imagen a{
-       margin-left: -72px;
+       margin-left: -45px;
    }
 
 }
@@ -427,7 +429,7 @@ nav label{
     }
 
     .contenedor-sobre .imagen a{
-        margin-left: -60px;
+        margin-left: -43px;
         font-size: 10px;
     }
 
@@ -444,17 +446,14 @@ nav label{
     }
 }
 
-@media screen and (max-width: 290px){
-    .contenedor-sobre .imagen{
-        margin-left: 30px;
-    }
-}
+
 
 @media screen and (max-width: 270px){
     .contenedor-sobre .imagen a{
-        margin-left: -55px;
+        margin-left: -40px;
         font-size: 9px;
     }
 }
+
 
  
